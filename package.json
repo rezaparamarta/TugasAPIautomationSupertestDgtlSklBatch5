@@ -1,0 +1,39 @@
+{
+  "name": "tugasapiautomationdigitalskolabatch5",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "This is unit test API for Digital Skola's taks at Bootcamp QA Engineer Batch 5",
+  "main": "index.js",
+  "scripts": {
+    "getSingleUser": "mocha reqresTest/get/singleUser.js",
+    "postCreateUser": "mocha reqresTest/post/createUser.js",
+    "putUpdateUser": "mocha reqresTest/put/updateUser.js",
+    "deleteUser": "mocha reqresTest/delete/deleteUser.js",
+    "testCoba": "mocha reqresTest/get/cobajsonSchema.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezaparamarta/TugasAPIautomationSupertestDgtlSklBatch5.git"
+  },
+  "keywords": [
+    "Testing",
+    "API",
+    "supertest",
+    "digitalSkola"
+  ],
+  "author": "Reza Paramarta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rezaparamarta/TugasAPIautomationSupertestDgtlSklBatch5/issues"
+  },
+  "homepage": "https://github.com/rezaparamarta/TugasAPIautomationSupertestDgtlSklBatch5#readme",
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "chai": "^5.1.1",
+    "chai-json-schema": "^1.5.1",
+    "chai-json-schema-ajv": "^5.2.4",
+    "mocha": "^10.7.3",
+    "mochawesome": "^7.1.3",
+    "supertest": "^7.0.0"
+  }
+}
