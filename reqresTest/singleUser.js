@@ -1,7 +1,7 @@
 import * as chai from 'chai';
 import chaiJsonSchemaAjv from 'chai-json-schema-ajv';
 import supertest from 'supertest';
-import baseUrl from '../../env.js';
+import baseUrl from '../env.js';
 
 const expect = chai.expect;
 chai.use(chaiJsonSchemaAjv);

@@ -5,11 +5,11 @@
   "description": "This is unit test API for Digital Skola's taks at Bootcamp QA Engineer Batch 5",
   "main": "index.js",
   "scripts": {
-    "getSingleUser": "mocha reqresTest/get/singleUser.js",
-    "postCreateUser": "mocha reqresTest/post/createUser.js",
-    "putUpdateUser": "mocha reqresTest/put/updateUser.js",
-    "deleteUser": "mocha reqresTest/delete/deleteUser.js",
-    "testCoba": "mocha reqresTest/get/cobajsonSchema.js"
+    "getSingleUser": "mocha reqresTest/singleUser.js",
+    "postCreateUser": "mocha reqresTest/createUser.js",
+    "putUpdateUser": "mocha reqresTest/updateUser.js",
+    "deleteUser": "mocha reqresTest/deleteUser.js",
+    "testCoba": "mocha reqresTest/cobajsonSchema.js"
   },
   "repository": {
     "type": "git",
