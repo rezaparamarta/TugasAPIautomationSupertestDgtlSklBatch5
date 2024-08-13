@@ -1,4 +1,4 @@
-export default 'https://reqres.in'; // Ganti dengan base URL API yang sesuai
+export default 'https://reqres.in';
 // module.exports = function() {
 //     return 'https://reqres.in';
 // }

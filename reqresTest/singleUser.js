@@ -9,7 +9,7 @@ chai.use(chaiJsonSchemaAjv);
 const request = supertest(baseUrl);
 
 describe('Unit Test API untuk Memeriksa JSON Schema and Testing Assertion', () => {
-    // Skema JSON yang didefinisikan
+    // Skema JSON
     const definedSchema = {
       "type": "object",
       "properties": {
@@ -37,12 +37,12 @@ describe('Unit Test API untuk Memeriksa JSON Schema and Testing Assertion', () =
     };
 
     it('This must return status code of 200', async function() {
-        const response = await request.get('/api/users/2');  // Ganti dengan endpoint API yang sesuai
+        const response = await request.get('/api/users/2');
         expect(response.status).to.equal(200);
     });
 
     it('This assertion must validate defined JSON schema', async function() {
-        const response = await request.get('/api/users/2');  // Ganti dengan endpoint API yang sesuai
+        const response = await request.get('/api/users/2');
         expect(response.body).to.be.jsonSchema(definedSchema);
     });
 
